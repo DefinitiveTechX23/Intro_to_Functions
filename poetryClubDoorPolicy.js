@@ -6,7 +6,7 @@ return sentence[0];
 
 }
 
-console.log(frontDoorResponse);
+
 
 function frontDoorPassword(frontDoorResponse){
 
@@ -15,7 +15,7 @@ function frontDoorPassword(frontDoorResponse){
 
 }
 
-console.log(frontDoorPassword); 
+
 
 function backDoorResponse(lineOfPoem){
 
@@ -28,15 +28,15 @@ function backDoorResponse(lineOfPoem){
 
 
 }
-console.log(backDoorResponse);
+
 
 function backDoorPassword(lineOfPoem){
 
-return lineOfPoem.toUpperCase + ", please";
+return lineOfPoem.toUpperCase() + ", please";
 
 }
 
-console.log(backDoorPassword);
+
 
 
 

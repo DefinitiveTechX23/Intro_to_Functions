@@ -4,7 +4,7 @@ function dayRate(hourlyRate) {
 
 
 }
-console.log(dayRate);
+
 
 function daysInBudget(budget, hourlyRate){
 
@@ -12,7 +12,7 @@ const dayRate = hourlyRate * 8;
 return Math.floor(budget / dayrate);
 }
 
-console.log(daysInBudget);
+
 
 function priceWithMonthlyDiscount(hourlyRate, numDaysProjectSpan, monthlyDiscountRate){
 
@@ -25,4 +25,4 @@ function priceWithMonthlyDiscount(hourlyRate, numDaysProjectSpan, monthlyDiscoun
     return Math.floor(priceWithMonthlyDiscount);
     
     }
-    console.log(priceWithMonthlyDiscount);
+    

@@ -10,7 +10,7 @@ function remainingMinutesInOven(TimeSpentInOven){
     return EXPECTED_MINUTES_IN_OVEN - TimeSpentInOven; 
 
 }
- console.log(remainingMinutesInOven);
+
 
 
 function preparationTimeInMinutes(lasanagaLayers){
@@ -18,7 +18,7 @@ function preparationTimeInMinutes(lasanagaLayers){
 return lasanagaLayers * 2;
 
 }
-console.log(preparationTimeInMinutes);
+
 
 function totalTimeInMinutes (numberOfLayers, actualMinutesInOven){
 
@@ -34,4 +34,3 @@ function totalTimeInMinutes (numberOfLayers, actualMinutesInOven){
 
 }
 
-console.log(totalTimeInMinutes);
